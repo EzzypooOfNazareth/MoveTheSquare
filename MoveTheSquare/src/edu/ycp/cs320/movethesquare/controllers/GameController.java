@@ -12,12 +12,15 @@ public class GameController {
 			double moveX = 0, moveY = 0;
 			if (dx > 0) {
 				moveX = Game.MOVE_DIST;
-			} else {
+			} 
+			else{
 				moveX = -Game.MOVE_DIST;
 			}
+			
 			if (dy > 0) {
 				moveY = Game.MOVE_DIST;
-			} else {
+			} 
+			else{
 				moveY = -Game.MOVE_DIST;
 			}
 			
